@@ -1,0 +1,98 @@
+<mxfile host="65bd71144e">
+    <diagram id="xXHNlBNAle6HTfh9Gpz4" name="Page-1">
+        <mxGraphModel dx="719" dy="1817" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="6" value="Shop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
+                    <mxGeometry x="260" y="-740" width="180" height="300" as="geometry">
+                        <mxRectangle x="90" y="-440" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="8" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="6" vertex="1">
+                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="+ date:  Date&#10;-  stockLevel :  Int&#10;+ squareFootage:  Int&#10;+ openingHours:  Date&#10;# customerDetails:  String &#10;# staffDetails:  String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
+                    <mxGeometry y="34" width="180" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="- orderStock()&#10;- updateOpeningHours()&#10;# newCustomer()&#10;# updateStaffDetails()&#10;- calculateWages()&#10;- calculateSales()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="6" vertex="1">
+                    <mxGeometry y="148" width="180" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="" style="line;strokeWidth=4;html=1;perimeter=backbonePerimeter;points=[];outlineConnect=0;" parent="1" vertex="1">
+                    <mxGeometry x="120" y="220" width="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" parent="1" vertex="1">
+                    <mxGeometry x="180" y="220" width="40" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="Book Shop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="20" y="-390" width="180" height="300" as="geometry">
+                        <mxRectangle x="90" y="-440" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="14" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="13">
+                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="+ genres:  String&#10;-  customerReviews:  String&#10;#  loyaltyCardHolder:  Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="13">
+                    <mxGeometry y="34" width="180" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" value="+ addNewGenre()&#10;- addCustomerReview()&#10;- deleteCustomerReview()&#10;# applyLoyaltyDiscount()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="13">
+                    <mxGeometry y="148" width="180" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" style="edgeStyle=none;html=1;entryX=0.506;entryY=1.013;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="17" target="9">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="370" y="-430" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="-410"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="17" value="Food Shop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="-390" width="180" height="300" as="geometry">
+                        <mxRectangle x="90" y="-440" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="18" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="17">
+                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="+ foodCategory:  String&#10;+ sellByDate:  Date&#10;+ ageRestriced: Boolean" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="17">
+                    <mxGeometry y="34" width="180" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="+ addFoodCatgeory()&#10;+ deleteFoodCategory()&#10;- reduceStockCalc()&#10;# askForID()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="17">
+                    <mxGeometry y="148" width="180" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" value="Clothes Shop" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+                    <mxGeometry x="510" y="-390" width="180" height="300" as="geometry">
+                        <mxRectangle x="90" y="-440" width="70" height="30" as="alternateBounds"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="21">
+                    <mxGeometry y="26" width="180" height="8" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="+ size:  Int&#10;+ clothingRange:  String&#10;+ itemCategory: String&#10;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="21">
+                    <mxGeometry y="34" width="180" height="114" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="+ addNewRange()&#10;- bestSellingItems()&#10;- applyPromotionalDiscount()" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="21">
+                    <mxGeometry y="148" width="180" height="152" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=-0.006;entryY=0.772;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="13" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="260" y="-620" as="sourcePoint"/>
+                        <mxPoint x="250" y="-590" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="110" y="-620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="26" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.763;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="21" target="7">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="270" y="-610" as="sourcePoint"/>
+                        <mxPoint x="600" y="-400" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="600" y="-620"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
